@@ -1,0 +1,31 @@
+body {
+        background-image: url(backgroun.jpg);
+        background-size: cover ;}
+h1 {text-align: center ;
+    color: rgb(107, 94, 85);
+    font-family : fantasy ;
+    border-bottom: solid 2px rgb(107, 94, 85);
+}
+p {color: rgb(107, 94, 85) ;
+font-weight: bolder ;}  
+img { 
+    width: 400px ;
+    height: 200px ;
+   transition : all 1s ;
+}
+.pic {
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: center ;
+}
+img:hover { transform : scale(1.1);}
+
+.sex {
+    display: flex ;
+    flex-wrap: wrap ;
+   justify-content: center ;
+}
+p
+{ color: rgb(104, 96, 96);}
+.brand img {width: 50px;
+height: 50px;}
